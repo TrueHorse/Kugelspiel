@@ -1,0 +1,9 @@
+Zeilenabstand + Spaltenabstand kann 1 ergeben, ohne dass es nur ein Abstand von
+1 ist.
+
+Funktionen, die etwas mit dem Spielfeld zu tun haben entweder in die Klasse
+Spielfeld, oder in eine eigene Klasse Spiellogik.
+
+Funktionen sollten nur das machen, was ihr Name auch beinhaltet, zum Beispiel
+sollte die Funktion SpielSpeichern nur das Spiel speichern und nicht den
+Benutzer vorher fragen, ob er das Spiel speichern möchte.

@@ -1,0 +1,1216 @@
+//Zuerst habe ich ein Testspiel gespielt:
+
+
+----------------------------------------------------------------
+Ein Zug muss in der folgenden Form eingegeben werden:A1 A2.
+Wenn du den aktuellen Spielstand speichern moechtest, gib S ein.
+Moechtest du einen gespeicherten Spielstand laden, gib L ein,
+----------------------------------------------------------------
+
+  12345678
+A WW....SS
+B WW....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Weiss ist am Zug:
+A2 A3
+
+  12345678
+A W.W...SS
+B WW....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Schwarz ist am Zug:
+B8 B7
+
+  12345678
+A W.W...SS
+B WW...SS.
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Weiss ist am Zug:
+B1 B2
+
+  12345678
+A W.W...SS
+B .WW..SS.
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Schwarz ist am Zug:
+A8 B8
+
+  12345678
+A W.W...S.
+B .WW..SSS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Weiss ist am Zug:
+A1 B1
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Schwarz ist am Zug:
+F8 F7
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW...SS.
+G WW....SS
+
+Weiss ist am Zug:
+F1 F2
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C WW....SS
+D WW....SS
+E WW....SS
+F .WW..SS.
+G WW....SS
+
+Schwarz ist am Zug:
+E8 E7
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C WW....SS
+D WW....SS
+E WW...SS.
+F .WW..SS.
+G WW....SS
+
+Weiss ist am Zug:
+E1 E2
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C WW....SS
+D WW....SS
+E .WW..SS.
+F .WW..SS.
+G WW....SS
+
+Schwarz ist am Zug:
+E7 E6
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C WW....SS
+D WW....SS
+E .WW.SS..
+F .WW..SS.
+G WW....SS
+
+Weiss ist am Zug:
+F2 F3
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C WW....SS
+D WW....SS
+E .WW.SS..
+F ..WW.SS.
+G WW....SS
+
+Schwarz ist am Zug:
+C8 C7
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C WW...SS.
+D WW....SS
+E .WW.SS..
+F ..WW.SS.
+G WW....SS
+
+Weiss ist am Zug:
+C1 C2
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C .WW..SS.
+D WW....SS
+E .WW.SS..
+F ..WW.SS.
+G WW....SS
+
+Schwarz ist am Zug:
+C7 D7
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C .WW..S..
+D WW....SS
+E .WW.SSS.
+F ..WW.SS.
+G WW....SS
+
+Weiss ist am Zug:
+F4 E4
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C .WW..S..
+D WW....SS
+E .WWWSSS.
+F ..W..SS.
+G WW....SS
+
+Schwarz ist am Zug:
+D7 D6
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C .WW..S..
+D WW...S.S
+E .WWWSSS.
+F ..W..SS.
+G WW....SS
+
+Weiss ist am Zug:
+D1 E1
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C .WW..S..
+D .W...S.S
+E WWWWSSS.
+F ..W..SS.
+G WW....SS
+
+Schwarz ist am Zug:
+D6 D5
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C .WW..S..
+D .W..S..S
+E WWWWSSS.
+F ..W..SS.
+G WW....SS
+
+Weiss ist am Zug:
+F3 F4
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C .WW..S..
+D .W..S..S
+E WWWWSSS.
+F ...W.SS.
+G WW....SS
+
+Schwarz ist am Zug:
+D5 E5
+
+  12345678
+A ..W...S.
+B WWW..SSS
+C .WW..S..
+D .W.....S
+E WWWWSSS.
+F ...WSSS.
+G WW....SS
+
+Weiss ist am Zug:
+A3 A4
+
+  12345678
+A ...W..S.
+B WWW..SSS
+C .WW..S..
+D .W.....S
+E WWWWSSS.
+F ...WSSS.
+G WW....SS
+
+Schwarz ist am Zug:
+C6 C5
+
+  12345678
+A ...W..S.
+B WWW..SSS
+C .WW.S...
+D .W.....S
+E WWWWSSS.
+F ...WSSS.
+G WW....SS
+
+Weiss ist am Zug:
+A4 A5
+
+  12345678
+A ....W.S.
+B WWW..SSS
+C .WW.S...
+D .W.....S
+E WWWWSSS.
+F ...WSSS.
+G WW....SS
+
+Schwarz ist am Zug:
+C5 C4
+
+  12345678
+A ....W.S.
+B WWW..SSS
+C .WWS....
+D .W.....S
+E WWWWSSS.
+F ...WSSS.
+G WW....SS
+
+Weiss ist am Zug:
+A5 A6
+
+  12345678
+A .....WS.
+B WWW..SSS
+C .WWS....
+D .W.....S
+E WWWWSSS.
+F ...WSSS.
+G WW....SS
+
+Schwarz ist am Zug:
+B6 A6
+
+Die 1. Kugel von Weiss wurde rausgeworfen.
+
+  12345678
+A .....SS.
+B WWW...SS
+C .WWS....
+D .W.....S
+E WWWWSSS.
+F ...WSSS.
+G WW....SS
+
+Weiss ist am Zug:
+aufgabe
+
+Die Eingabe hat nicht die richtige Laenge. Eingabe in der Form:A1 A2
+Weiss ist am Zug:
+lose
+
+Die Eingabe hat nicht die richtige Laenge. Eingabe in der Form:A1 A2
+Weiss ist am Zug:
+F4 G4
+
+  12345678
+A .....SS.
+B WWW...SS
+C .WWS....
+D .W.....S
+E WWWWSSS.
+F ....SSS.
+G WW.W..SS
+
+Schwarz ist am Zug:
+C4 C3
+
+  12345678
+A .....SS.
+B WWW...SS
+C WWS.....
+D .W.....S
+E WWWWSSS.
+F ....SSS.
+G WW.W..SS
+
+Weiss ist am Zug:
+C2 C3
+
+  12345678
+A .....SS.
+B WWW...SS
+C W.WS....
+D .W.....S
+E WWWWSSS.
+F ....SSS.
+G WW.W..SS
+
+Schwarz ist am Zug:
+C4 C3
+
+  12345678
+A .....SS.
+B WWW...SS
+C WWS.....
+D .W.....S
+E WWWWSSS.
+F ....SSS.
+G WW.W..SS
+
+Weiss ist am Zug:
+B3 C3
+
+  12345678
+A .....SS.
+B WW....SS
+C WWW.....
+D .WS....S
+E WWWWSSS.
+F ....SSS.
+G WW.W..SS
+
+Schwarz ist am Zug:
+D3 D2
+
+  12345678
+A .....SS.
+B WW....SS
+C WWW.....
+D WS.....S
+E WWWWSSS.
+F ....SSS.
+G WW.W..SS
+
+Weiss ist am Zug:
+C2 D2
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW.....S
+E WSWWSSS.
+F .W..SSS.
+G WW.W..SS
+
+Schwarz ist am Zug:
+E2 E1
+
+Die 2. Kugel von Weiss wurde rausgeworfen.
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW.....S
+E S.WWSSS.
+F .W..SSS.
+G WW.W..SS
+
+Weiss ist am Zug:
+E4 E5
+
+Ungueltiger Zug. Du kannst hoechstens 2 Kugeln vor dir herschieben.
+Weiss ist am Zug:
+G1 G2
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW.....S
+E S.WWSSS.
+F .W..SSS.
+G .WWW..SS
+
+Schwarz ist am Zug:
+E1 E2
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW.....S
+E .SWWSSS.
+F .W..SSS.
+G .WWW..SS
+
+Weiss ist am Zug:
+E3 E2
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW.....S
+E SW.WSSS.
+F .W..SSS.
+G .WWW..SS
+
+Schwarz ist am Zug:
+E5 E6
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW.....S
+E SW.W.SSS
+F .W..SSS.
+G .WWW..SS
+
+Weiss ist am Zug:
+E2 E1
+
+Die 1. Kugel von Schwarz wurde rausgeworfen.
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW.....S
+E W..W.SSS
+F .W..SSS.
+G .WWW..SS
+
+Schwarz ist am Zug:
+D8 D7
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW....S.
+E W..W.SSS
+F .W..SSS.
+G .WWW..SS
+
+Weiss ist am Zug:
+E4 E%
+
+Ungueltiges Feld. Eingabe in der Form:A1 A2
+Weiss ist am Zug:
+E4 E5
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW....S.
+E W...WSSS
+F .W..SSS.
+G .WWW..SS
+
+Schwarz ist am Zug:
+E8 E7
+
+Ungueltiger Zug. Du kannst hoechstens 2 Kugeln vor dir herschieben.
+Schwarz ist am Zug:
+E7 E6
+
+  12345678
+A .....SS.
+B WW....SS
+C W.W.....
+D WW....S.
+E W..WSS.S
+F .W..SSS.
+G .WWW..SS
+
+Weiss ist am Zug:
+B2 B1
+
+Die 3. Kugel von Weiss wurde rausgeworfen.
+
+  12345678
+A .....SS.
+B W.....SS
+C W.W.....
+D WW....S.
+E W..WSS.S
+F .W..SSS.
+G .WWW..SS
+
+Schwarz ist am Zug:
+B7 B8
+
+Die 2. Kugel von Schwarz wurde rausgeworfen.
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW....S.
+E W..WSS.S
+F .W..SSS.
+G .WWW..SS
+
+Weiss ist am Zug:
+E4 E5
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW....S.
+E W...WSSS
+F .W..SSS.
+G .WWW..SS
+
+Schwarz ist am Zug:
+E7 E6
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW....S.
+E W..WSS.S
+F .W..SSS.
+G .WWW..SS
+
+Weiss ist am Zug:
+E4 E5
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW....S.
+E W...WSSS
+F .W..SSS.
+G .WWW..SS
+
+Schwarz ist am Zug:
+E7 E6
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW....S.
+E W..WSS.S
+F .W..SSS.
+G .WWW..SS
+
+Weiss ist am Zug:
+E4 E5
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW....S.
+E W...WSSS
+F .W..SSS.
+G .WWW..SS
+
+Schwarz ist am Zug:
+F5 F6
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW....S.
+E W...WSSS
+F .W...SSS
+G .WWW..SS
+
+Weiss ist am Zug:
+E5 F5
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW....S.
+E W....SSS
+F .W..WSSS
+G .WWW..SS
+
+Schwarz ist am Zug:
+D7 D6
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW...S..
+E W....SSS
+F .W..WSSS
+G .WWW..SS
+
+Weiss ist am Zug:
+F5 E6
+
+Du kannst nur ein Feld weit ziehen
+Weiss ist am Zug:
+F5 F6
+
+Ungueltiger Zug. Du kannst hoechstens 2 Kugeln vor dir herschieben.
+Weiss ist am Zug:
+F5 F3
+
+Du kannst nur ein Feld weit ziehen
+Weiss ist am Zug:
+G4 G5
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW...S..
+E W....SSS
+F .W..WSSS
+G .WW.W.SS
+
+Schwarz ist am Zug:
+D6 D5
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW..S...
+E W....SSS
+F .W..WSSS
+G .WW.W.SS
+
+Weiss ist am Zug:
+G2 G3
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW..S...
+E W....SSS
+F .W..WSSS
+G ..WWW.SS
+
+Schwarz ist am Zug:
+D5 D4
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW.S....
+E W....SSS
+F .W..WSSS
+G ..WWW.SS
+
+Weiss ist am Zug:
+G5 G6
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW.S....
+E W....SSS
+F .W..WSSS
+G ..WW.WSS
+
+Schwarz ist am Zug:
+E6 F6
+
+Die 4. Kugel von Weiss wurde rausgeworfen.
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW.S....
+E W.....SS
+F .W..WSSS
+G ..WW.SSS
+
+Weiss ist am Zug:
+F5 G5
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WW.S....
+E W.....SS
+F .W...SSS
+G ..WWWSSS
+
+Schwarz ist am Zug:
+D4 D3
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WWS.....
+E W.....SS
+F .W...SSS
+G ..WWWSSS
+
+Weiss ist am Zug:
+D1 D2
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D .WWS....
+E W.....SS
+F .W...SSS
+G ..WWWSSS
+
+Schwarz ist am Zug:
+D4 D3
+
+  12345678
+A .....SS.
+B W......S
+C W.W.....
+D WWS.....
+E W.....SS
+F .W...SSS
+G ..WWWSSS
+
+Weiss ist am Zug:
+C3 D3
+
+  12345678
+A .....SS.
+B W......S
+C W.......
+D WWW.....
+E W.S...SS
+F .W...SSS
+G ..WWWSSS
+
+Schwarz ist am Zug:
+E3 E2
+
+  12345678
+A .....SS.
+B W......S
+C W.......
+D WWW.....
+E WS....SS
+F .W...SSS
+G ..WWWSSS
+
+Weiss ist am Zug:
+F3 E3
+
+Auf dem angegebenen Feld liegt keine Kugel.
+Weiss ist am Zug:
+F2 E2
+
+  12345678
+A .....SS.
+B W......S
+C WW......
+D WSW.....
+E WW....SS
+F .....SSS
+G ..WWWSSS
+
+Schwarz ist am Zug:
+D2 D1
+
+Die 5. Kugel von Weiss wurde rausgeworfen.
+
+  12345678
+A .....SS.
+B W......S
+C WW......
+D S.W.....
+E WW....SS
+F .....SSS
+G ..WWWSSS
+
+///////////////////////////////////////////////////////////////
+
+Schwarz hat 5 Kugeln von Weiss rausgeworfen und damit gewonnen!
+
+///////////////////////////////////////////////////////////////
+
+Neues Spiel? (J/N)
+
+/*
+*Dann habe ich noch einige zusätzliche Tests gemacht:
+*Zuerst habe ich "J" eingegeben, um zu überprüfen, ob das neue Spiel korrekt
+*gestartet wird.
+*/
+J
+
+  12345678
+A WW....SS
+B WW....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Weiss ist am Zug:
+/*
+*Danach habe ich "Hallo" in die schon vorhandene gespeichertesSpiel.txt
+*geschrieben einige Züge gemacht und dann versucht zu speichern, um zu testen,
+*ob die gespeichertesSpiel.txt vor dem speichern korrekt gelöscht wird.
+*/
+A1 A2
+
+  12345678
+A .WW...SS
+B WW....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Schwarz ist am Zug:
+A7 A8
+
+Die 1. Kugel von Schwarz wurde rausgeworfen.
+
+  12345678
+A .WW....S
+B WW....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Weiss ist am Zug:
+B2 A2
+
+Die 1. Kugel von Weiss wurde rausgeworfen.
+
+  12345678
+A .WW....S
+B W.....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Schwarz ist am Zug:
+S
+
+Ist schon ein Spiel gespeichert wird es ueberschrieben. Trotzdem fortfahren?(J/N)
+J
+Schwarz ist am Zug:
+/*
+*In der gespeichertesSpiel.txt stand dann der korrekte Spielstand:
+*.WW....SW.....SSWW....SSWW....SSWW....SSWW....SSWW....SSS11
+*Um zu überprüfen, ob er auch richtig geladen wird habe ich noch ein paar
+*Züge gemacht und dann versucht das Spiel zu laden.
+*/
+F7 G7
+
+Die 2. Kugel von Schwarz wurde rausgeworfen.
+
+  12345678
+A .WW....S
+B W.....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW.....S
+G WW....SS
+
+Weiss ist am Zug:
+G1 G2
+
+  12345678
+A .WW....S
+B W.....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW.....S
+G .WW...SS
+
+Schwarz ist am Zug:
+L
+
+Soll dieses Spiel abgebrochen und das gespeicherte Spiel geladen werden?(J/N)
+J
+
+  12345678
+A .WW....S
+B W.....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW....SS
+
+Schwarz ist am Zug:
+/*
+*Ich habe noch ein zwei weitere Züge gemacht, um zu überprüfen, ob die Anzahl
+*der rausgeworfenen Kugeln auch richtig geladen wurde.
+*/
+G7 G8
+
+Die 2. Kugel von Schwarz wurde rausgeworfen.
+
+  12345678
+A .WW....S
+B W.....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G WW.....S
+
+Weiss ist am Zug:
+G2 G1
+
+Die 2. Kugel von Weiss wurde rausgeworfen.
+
+  12345678
+A .WW....S
+B W.....SS
+C WW....SS
+D WW....SS
+E WW....SS
+F WW....SS
+G W......S
+
+Schwarz ist am Zug:
+/*
+*Dann habe ich versucht eine veränderte gespeichertesSpiel.txt zu laden. Zuerst
+*mit diesem Inhalt: .WW....SW.....SSWW....SSWW....SSWW....SSWW....SS....SSS11
+*/
+L
+
+Soll dieses Spiel abgebrochen und das gespeicherte Spiel geladen werden?(J/N)
+J
+gespeichertesSpiel.txt enthaelt einen Spielstand ungueltiger Laenge
+
+Schwarz ist am Zug:
+/*
+*Dann mit mit diesem Inhalt: 
+*.WW....SW.....SSWW.ß..SSWW....SSWW....SSWW....SSW....SSS11
+*/
+L
+
+Soll dieses Spiel abgebrochen und das gespeicherte Spiel geladen werden?(J/N)
+J
+
+  12345678
+A .WW....S
+B W.....SS
+C WW.├ƒ..S
+D SWW....S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Schwarz ist am Zug:
+/*
+*Um sicherzugehen, dass es nicht abstürzt habe ich ein paar Züge gemacht.
+*/
+C4 C5
+
+  12345678
+A .WW....S
+B W.....SS
+C WW..├ƒ.S
+D SWW....S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Weiss ist am Zug:
+D2 D3
+
+  12345678
+A .WW....S
+B W.....SS
+C WW..├ƒ.S
+D S.WW...S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Schwarz ist am Zug:
+C6 C7
+
+  12345678
+A .WW....S
+B W.....SS
+C WW..├.ƒS
+D S.WW...S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Weiss ist am Zug:
+D4 D5
+
+  12345678
+A .WW....S
+B W.....SS
+C WW..├.ƒS
+D S.W.W..S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Schwarz ist am Zug:
+C7 C8
+
+Die 2. Kugel von Schwarz wurde rausgeworfen.
+
+  12345678
+A .WW....S
+B W.....SS
+C WW..├..ƒ
+D S.W.W..S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Weiss ist am Zug:
+D5 C5
+
+  12345678
+A .WW....S
+B W...├.SS
+C WW..W..ƒ
+D S.W....S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Schwarz ist am Zug:
+B7 C7
+
+  12345678
+A .WW....S
+B W...├..S
+C WW..W.Sƒ
+D S.W....S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Weiss ist am Zug:
+C5 B5
+
+  12345678
+A .WW.├..S
+B W...W..S
+C WW....Sƒ
+D S.W....S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Schwarz ist am Zug:
+C7 C8
+
+Die 3. Kugel von Schwarz wurde rausgeworfen.
+
+  12345678
+A .WW.├..S
+B W...W..S
+C WW.....S
+D S.W....S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Weiss ist am Zug:
+B5 A5
+
+Die 4. Kugel von Schwarz wurde rausgeworfen.
+
+  12345678
+A .WW.W..S
+B W......S
+C WW.....S
+D S.W....S
+E SWW....S
+F SWW....S
+G SW....SS
+
+Schwarz ist am Zug:
+/*
+*Zum Schluss habe ich gespeichertesSpiel.txt gelöscht und alle noch nicht
+*getesteten Fehlermeldungen getestet.
+*/
+L
+
+Soll dieses Spiel abgebrochen und das gespeicherte Spiel geladen werden?(J/N)
+J
+
+Es existiert kein gespeichertes Spiel.
+Schwarz ist am Zug:
+E2 E1
+
+Die angegebene Kugel gehoert dir nicht.
+Schwarz ist am Zug:
+AAAAA
+
+Ungueltiges Feld. Eingabe in der Form:A1 A2
+Schwarz ist am Zug:
+AA AA
+
+Ungueltiges Feld. Eingabe in der Form:A1 A2
+Schwarz ist am Zug:
+A2 AA
+
+Ungueltiges Feld. Eingabe in der Form:A1 A2
+Schwarz ist am Zug:
+AA A2
+
+Ungueltiges Feld. Eingabe in der Form:A1 A2
+Schwarz ist am Zug:
+1A A1
+
+Ungueltiges Feld. Eingabe in der Form:A1 A2
+Schwarz ist am Zug:
+A1 1A
+
+Ungueltiges Feld. Eingabe in der Form:A1 A2
+Schwarz ist am Zug:
+A1ßA2
+
+Ungueltiges Feld. Eingabe in der Form:A1 A2
+Schwarz ist am Zug:
