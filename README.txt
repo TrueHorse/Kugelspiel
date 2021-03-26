@@ -7,7 +7,7 @@ Stellen Sie sich ein Spiel vor, das auf einem Raster mit 8x7 Feldern gespielt
 wird. Es gibt zwei Spieler, die jeweis 14 Kugeln, der erste Spieler weisse,
 der zweite schwarze, erhaelt die wie folgt angeordnet auf dem Spielfeld liegen:
 
-12345678
+  12345678
 A WW....SS
 B WW....SS
 C WW....SS
